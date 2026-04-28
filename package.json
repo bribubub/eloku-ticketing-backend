@@ -1,0 +1,33 @@
+{
+  "name": "ticketing",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1024.0",
+    "@aws-sdk/s3-request-presigner": "^3.1024.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.4",
+    "pg": "^8.20.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://toniku-admin@bitbucket.org/sinergi-prasimax/ticketing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/sinergi-prasimax/ticketing/issues"
+  },
+  "homepage": "https://bitbucket.org/sinergi-prasimax/ticketing#readme"
+}
